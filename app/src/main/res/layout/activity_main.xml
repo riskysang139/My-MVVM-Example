@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.CalendarFragment">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="TTC Solutions"
+            android:textColor="@color/mainColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_btn3"
+                android:gravity="center"
+                android:text="Home"
+                android:id="@+id/btn_home"
+                android:textAllCaps="false"
+                android:textColor="@color/mainColor" />
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_btn3"
+                android:gravity="center"
+                android:text="Lịch Sử"
+                android:id="@+id/btn_history"
+                android:textAllCaps="false"
+                android:textColor="@color/mainColor" />
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_btn3"
+                android:gravity="center"
+                android:id="@+id/btn_loveHistory"
+                android:text="Yêu Thích"
+                android:textAllCaps="false"
+                android:textColor="@color/mainColor" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_main2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="RegisterViewModel"
+            type="com.example.bookroom.register.RegisterViewModel" />
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector_445">
+
+                <ImageButton
+                    android:layout_width="23dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/mainColor"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Đăng Kí"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/logo_ttc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-50dp"
+                android:src="@drawable/logo_ttc_1">
+
+            </ImageView>
+
+            <RelativeLayout
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo_ttc"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/etFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_btn_email_pass"
+                    android:gravity="center_vertical"
+                    android:text="@={RegisterViewModel.Username}"
+                    android:hint="Nhập username"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/login"
+                    android:textSize="16sp"/>
+                <EditText
+                    android:layout_below="@id/etFullName"
+                    android:id="@+id/etEmail"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_btn_email_pass"
+                    android:gravity="center_vertical"
+                    android:text="@={RegisterViewModel.EmailAddress}"
+                    android:hint="@string/hint_email"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/login"
+                    android:textSize="16sp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layoutPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/etEmail"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_btn_email_pass"
+                    android:gravity="center_vertical"
+                    app:hintAnimationEnabled="false"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:hint="@string/hint_pass"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:text="@={RegisterViewModel.Password}"
+                        android:paddingLeft="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/login"
+                        android:textSize="16sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layoutPassConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/layoutPass"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_btn_email_pass"
+                    android:gravity="center_vertical"
+                    app:hintAnimationEnabled="false"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/etPasswordConfirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:hint="Xác nhận mật khẩu"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:text="@={RegisterViewModel.PasswordConfirm}"
+                        android:paddingLeft="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/login"
+                        android:textSize="16sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/layoutPassConfirm"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/layoutcapcha"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/title_capcha"
+                        android:layout_width="wrap_content"
+                        android:text="Mã capcha : "
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtCapcha"
+                        android:layout_toRightOf="@id/title_capcha"
+                        android:layout_width="wrap_content"
+                        android:text="AAAA"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content"/>
+                    <ImageButton
+                        android:id="@+id/btnReload"
+                        android:src="@drawable/ic_refresh__1_"
+                        android:layout_toRightOf="@id/txtCapcha"
+                        android:layout_width="wrap_content"
+                        android:textSize="20sp"
+                        android:background="@color/white"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/layoutcapcha"
+                    android:id="@+id/etCapcha"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_btn_email_pass"
+                    android:gravity="center_vertical"
+                    android:text="@={RegisterViewModel.strCapcha}"
+                    android:hint="Nhập mã capcha"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/login"
+                    android:textSize="16sp"/>
+                <Button
+
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/etCapcha"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="16dp"
+                    android:height="50dp"
+                    android:background="@drawable/shape_btn_login"
+                    android:text="@string/dang_ki"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:onClick="@{(v) -> RegisterViewModel.onClick(v)}"
+                    android:textSize="16dp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</layout>
+

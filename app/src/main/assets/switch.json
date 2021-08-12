@@ -1,0 +1,403 @@
+{
+  "net": [
+    {
+      "name": "Facebook",
+      "icon": "fb",
+      "link": "https://m.facebook.com/",
+      "require_desktop": 1,
+      "category": "so"
+    },
+    {
+      "name": "Messenger",
+      "icon": "mege",
+      "link": "https://www.messenger.com",
+      "require_desktop": 1,
+      "category": "mes"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twit",
+      "link": "https://twitter.com/login",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Instagram",
+      "icon": "inta",
+      "link": "https://www.instagram.com/accounts/login/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Linkedin",
+      "icon": "lide",
+      "link": "https://www.linkedin.com/login",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Skype",
+      "icon": "sky",
+      "link": "https://web.skype.com/",
+      "require_desktop": 1,
+      "category": "mes"
+    },
+    {
+      "name": "Telegram",
+      "icon": "tele",
+      "link": "https://web.telegram.org/#/login",
+      "require_desktop": 0,
+      "category": "mes"
+    },
+    {
+      "name": "Snapchat",
+      "icon": "snap",
+      "link": "https://accounts.snapchat.com",
+      "require_desktop": 0,
+      "category": "mes"
+    },
+    {
+      "name": "Vkontakte",
+      "icon": "konta",
+      "link": "https://m.vk.com/login",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "WeChat",
+      "icon": "wcha",
+      "link": "https://web.wechat.com/",
+      "require_desktop": 1,
+      "category": "mes"
+    },
+    {
+      "name": "Meet Me",
+      "icon": "memet",
+      "link": "https://touch.meetme.com",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Tumblr",
+      "icon": "tmb",
+      "link": "https://www.tumblr.com/login",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Hitwe",
+      "icon": "htw",
+      "link": "https://hitwe.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Yahoo",
+      "icon": "yao",
+      "link": "https://login.yahoo.com",
+      "require_desktop": 0,
+      "category": "mes"
+    },
+    {
+      "name": "Renren",
+      "icon": "rer",
+      "link": "http://sns.renren.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Reddit",
+      "icon": "red",
+      "link": "https://www.reddit.com/login/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Tagged",
+      "icon": "taed",
+      "link": "https://www.tagged.com/",
+      "require_desktop": 1,
+      "category": "so"
+    },
+    {
+      "name": "Aol",
+      "icon": "aol",
+      "link": "https://www.aol.com/",
+      "require_desktop": 0,
+      "category": "em"
+    },
+    {
+      "name": "Jaumo",
+      "icon": "jamo",
+      "link": "https://www.jaumo.com/",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Myspace",
+      "icon": "mysc",
+      "link": "https://myspace.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "9 Gag",
+      "icon": "9a",
+      "link": "https://9gag.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Top Face",
+      "icon": "tf",
+      "link": "https://topface.com/",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Cyworld",
+      "icon": "cw",
+      "link": "http://cy.cyworld.com/cyMain",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Imgur",
+      "icon": "ig",
+      "link": "https://imgur.com/",
+      "require_desktop": 1,
+      "category": "so"
+    },
+    {
+      "name": "Xanga",
+      "icon": "xg",
+      "link": "http://xanga.com/wp-login.php",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Badoo",
+      "icon": "bd",
+      "link": "https://badoo.com/en/signin/",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Classmate",
+      "icon": "clm",
+      "link": "https://secure.classmates.com/auth/login",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Waplog",
+      "icon": "wl",
+      "link": "https://waplog.com/panel/login",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Group Me",
+      "icon": "gp",
+      "link": "https://web.groupme.com/signin",
+      "require_desktop": 1,
+      "category": "so"
+    },
+    {
+      "name": "Black Planet",
+      "icon": "bp",
+      "link": "https://www.blackplanet.com/discover/message/1",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Gaia Online",
+      "icon": "gle",
+      "link": "https://www.gaiaonline.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Twoo",
+      "icon": "twoo",
+      "link": "https://www.twoo.com/?login=1",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Qzone",
+      "icon": "qe",
+      "link": "https://qzone.qq.com/",
+      "require_desktop": 0,
+      "category": "mes"
+    },
+    {
+      "name": "Mymfb",
+      "icon": "mfb",
+      "link": "http://mymfb.com/user/login/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Okcupid",
+      "icon": "ocd",
+      "link": "https://www.okcupid.com/login",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Gmail",
+      "icon": "gmi",
+      "link": "https://mail.google.com/mail/u/0/",
+      "require_desktop": 0,
+      "category": "em"
+    },
+    {
+      "name": "Quora",
+      "icon": "qor",
+      "link": "https://www.quora.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Zoosk",
+      "icon": "zsk",
+      "link": "https://www.zoosk.com/login",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Mocospace",
+      "icon": "mcp",
+      "link": "https://www.mocospace.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Plenty Of Fish",
+      "icon": "pof",
+      "link": "https://www.pof.com/inbox.aspx",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Zoho Mail",
+      "icon": "zoml",
+      "link": "https://accounts.zoho.com/signin",
+      "require_desktop": 0,
+      "category": "em"
+    },
+    {
+      "name": "Gmx",
+      "icon": "gmx",
+      "link": "https://www.gmx.com/",
+      "require_desktop": 0,
+      "category": "em"
+    },
+    {
+      "name": "Mail.Ru",
+      "icon": "mru",
+      "link": "https://mail.ru/",
+      "require_desktop": 0,
+      "category": "em"
+    },
+    {
+      "name": "Chatwork",
+      "icon": "cwk",
+      "link": "https://www.chatwork.com/login.php",
+      "require_desktop": 0,
+      "category": "mes"
+    },
+    {
+      "name": "Tinder",
+      "icon": "tder",
+      "link": "https://tinder.com/",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Match",
+      "icon": "match",
+      "link": "http://www.match.com",
+      "require_desktop": 0,
+      "category": "da"
+    },
+    {
+      "name": "Skyrock",
+      "icon": "skr",
+      "link": "https://www.skyrock.com/?connect=1",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Care2",
+      "icon": "car",
+      "link": "https://www.care2.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Cafemom",
+      "icon": "cfmm",
+      "link": "https://www.cafemom.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Nextdoor",
+      "icon": "nedo",
+      "link": "https://nextdoor.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Livejournal",
+      "icon": "ljn",
+      "link": "https://www.livejournal.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Buzznet",
+      "icon": "bzz",
+      "link": "http://www.buzznet.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Spreely",
+      "icon": "spp",
+      "link": "https://www.spreely.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Mewe",
+      "icon": "mww",
+      "link": "https://mewe.com/",
+      "require_desktop": 0,
+      "category": "so"
+    },
+    {
+      "name": "Agoda",
+      "icon": "agd",
+      "link": "https://www.agoda.com/",
+      "require_desktop": 1,
+      "category": "tr"
+    },
+    {
+      "name": "Booking.Com",
+      "icon": "bkc",
+      "link": "https://www.booking.com/",
+      "require_desktop": 0,
+      "category": "tr"
+    },
+    {
+      "name": "Tripadvisor",
+      "icon": "tvs",
+      "link": "https://www.tripadvisor.com",
+      "require_desktop": 0,
+      "category": "tr"
+    }
+  ]
+}
